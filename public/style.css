@@ -1,0 +1,113 @@
+html {
+	/* sticky footer */
+	position: relative;
+	min-height: 100%;
+	padding: 0;
+}
+
+body {
+	background: url('/img/l2h-background.png') no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	 -moz-background-size: cover;
+	   -o-background-size: cover;
+	      background-size: cover;
+	/* sticky footer */
+    height: 100vh;
+}
+
+#lth-reg-panel {
+	background: rgba(255,255,255,0.6);
+	max-width: 360px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#lth-reg-form {
+}
+
+.container-fluid-outer {
+	display: table;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.container-fluid-inner {
+	display: table-cell;
+	height: 100px;
+	padding: 0;
+	vertical-align: middle;
+}
+
+.page-header {
+    border-bottom: 0;
+    margin-top: 0px;
+    padding-top: 40px;
+    background: #4d6986;
+    color: white;
+}
+
+#lth-reg-header-title {
+    margin: inherit;
+}
+
+#lth-reg-footer {
+	/* sticky footer */
+  position: absolute;
+  display: inline;
+  bottom: 0;
+  width: 100%;
+  padding-top: 16px;
+  /* Set the fixed height of the footer here */
+  height: 52px;
+  background-color: #f5f5f5;
+}
+
+#lth-reg-footer a, #lth-reg-footer a:hover {
+	color: #9a9a9a;
+	text-decoration: none;
+}
+
+#lth-reg-content {
+    max-width: 360px;
+    margin: auto;
+    color: black;
+}
+
+#logo {
+	background: url("/img/l2h-logo.png") no-repeat center;
+	-webkit-background-size:contain;
+	-moz-background-size:contain;
+	-o-background-size:contain;
+	background-size:contain;
+	height: 144px; 
+	margin-bottom: 8px; 
+	margin-top: 8px;
+}
+
+#lth-reg-intro {
+	text-align: center;
+	padding-bottom: 16px;
+}
+
+#lth-reg-form {
+	max-width: 360px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#lth-reg-end {
+	display: none;
+	color: black;
+	text-align: center;
+}
+
+#lth-reg-end h3 {
+	margin-bottom: 8px;
+}
+
+/*
+#lth-reg-lastName:after {
+	content: "@umich.edu";
+}
+*/

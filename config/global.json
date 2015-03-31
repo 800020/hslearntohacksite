@@ -1,0 +1,14 @@
+{
+    "applications": {
+        "Learn to Hack Registration": {
+            "applicationId": "iCShsdpsBsxMjqzvCHqAGTfGSja1wgFzILjsNJuD", 
+            "masterKey": "nepLKaWCAmw0ex3pIZOB2QU5b9rbKXaXmwR0lzcd"
+        }, 
+        "_default": {
+            "link": "Learn to Hack Registration"
+        }
+    }, 
+    "global": {
+        "parseVersion": "1.3.1"
+    }
+}
